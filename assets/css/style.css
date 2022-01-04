@@ -1,8 +1,8 @@
 :root {
     /* Uncomment the code below and change the color schem if desired */
-    /* --primary: rgba(43, 91, 186, 0.6);
+    --primary: rgba(43, 91, 186, 0.6);
     --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --greyish: rgb(116 121 129 / 80%); 
 }
 
 html, body {
@@ -80,7 +80,7 @@ img + p > span {
         font-size: 0.8rem;
     }
 }
-
+/*max width of a screen is 992px and when it reaches to the max width, font size changes to 0.8rem*/
 @media screen and (max-width: 768px){
     .custom-resume > div > div:first-child {
         order: 2;
@@ -92,3 +92,4 @@ img + p > span {
         flex-basis: 6%;
     }
 }
+/* S*/
